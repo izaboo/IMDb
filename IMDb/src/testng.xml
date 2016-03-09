@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="IMDb - Tests for IMBd search engine and sorting" verbose="1" >
+	<listeners>
+		<listener class-name="org.testng.reporters.XMLReporter"/>
+	</listeners>
+	<test name="Test for IMBd sorting and search engine " >
+		<parameter name="propFileWithParametersToCheck" value="search.properties"/>
+		<classes>
+			<class name="com.imdb.funcTests.TestTop250Page" />
+<!--
+			<methods>
+				<include name="verifyGenreSearchResults" />
+			</methods>
+-->
+		</classes>
+	</test>
+</suite>
