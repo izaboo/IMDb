@@ -9,6 +9,9 @@ import java.util.*;
 
 /**
  * Created by xsoroka on 3/8/2016.
+ * Class describes main options and behavior of Top250 page
+ *  - sorting
+ *  - initiating search via genre
  */
 public class IMDbTop250 {
     private final WebDriver driver;

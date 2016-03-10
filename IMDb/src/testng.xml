@@ -7,11 +7,6 @@
 		<parameter name="propFileWithParametersToCheck" value="search.properties"/>
 		<classes>
 			<class name="com.imdb.funcTests.TestTop250Page" />
-<!--
-			<methods>
-				<include name="verifyGenreSearchResults" />
-			</methods>
--->
 		</classes>
 	</test>
 </suite>

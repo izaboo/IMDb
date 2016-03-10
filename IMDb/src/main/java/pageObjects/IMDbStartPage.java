@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 /**
  * Created by xsoroka on 3/8/2016.
+ * Class describes main option and behavior of start IMDb.com page
  */
 public class IMDbStartPage {
     private final WebDriver driver;

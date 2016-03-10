@@ -8,6 +8,12 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Created by xsoroka on 3/8/2016.
+ * Class for general pre-test and pre-suite running preparations
+ *  - initiating driver
+ *  - opening start page
+ *  - reading properties or configuration files
+ *  etc.
+
  */
 public class CommonPreparation {
     protected FirefoxDriver driver;
