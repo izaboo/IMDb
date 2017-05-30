@@ -14,3 +14,11 @@ Further improvements which can be made
  - analyse necessity of moving webelements locators to properties file or other storage
 
 Note: Main comments are inside code itself.
+
+Current tests confirm:
+
+1. The Top 250 (http://www.imdb.com/chart/top) page returns at least 1 movie​, in the list.
+
+2. The previous should be true, for each of the sorting options:​
+
+3. The previous should also be true, when navigating to the Western​genre:
